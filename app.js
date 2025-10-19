@@ -6,7 +6,7 @@ const app = express();
 app.use(logger);
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Hello IFT 458!');
 });
 
 const PORT = 4000;
